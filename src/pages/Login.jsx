@@ -8,9 +8,9 @@ import { Field, Input } from '../components/ui'
 import Logo from '../components/Logo'
 
 const DEMOS = [
-  ['Admin', 'admin@sayarati.tn', 'Admin@123'],
-  ['Agency', 'agency@sayarati.tn', 'Agency@123'],
-  ['Client', 'client@sayarati.tn', 'Client@123'],
+  ['Admin', 'admin@sayarati.dz', 'Admin@123'],
+  ['Agency', 'agency@sayarati.dz', 'Agency@123'],
+  ['Client', 'client@sayarati.dz', 'Client@123'],
 ]
 
 export default function Login() {
