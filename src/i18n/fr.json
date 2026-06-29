@@ -14,7 +14,7 @@
     "compare": "Comparer"
   },
   "hero": {
-    "badge": "La 1ère plateforme tunisienne unifiée de location",
+    "badge": "La 1ère plateforme algérienne unifiée de location",
     "title": "Trouvez, comparez et réservez votre voiture en toute simplicité",
     "subtitle": "SAYARATI connecte les agences de location et les clients dans un espace numérique unique, sûr et rapide.",
     "searchCta": "Chercher une voiture",
@@ -184,7 +184,7 @@
     "model": "Modèle",
     "year": "Année",
     "category": "Catégorie",
-    "pricePerDay": "Prix par jour (DT)",
+    "pricePerDay": "Prix par jour (DA)",
     "city": "Ville",
     "seats": "Nombre de places",
     "transmission": "Transmission",
@@ -199,11 +199,11 @@
     "quickLinks": "Liens rapides",
     "contact": "Contact",
     "rights": "Tous droits réservés",
-    "madeWith": "Fait avec fierté en Tunisie"
+    "madeWith": "Fait avec fierté en Algérie"
   },
   "common": {
     "loading": "Chargement...",
-    "currency": "DT",
+    "currency": "DA",
     "back": "Retour",
     "error": "Une erreur est survenue",
     "tryDemo": "Comptes de démonstration"

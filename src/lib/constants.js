@@ -1,14 +1,24 @@
 export const CITIES = [
-  'Tunis',
-  'Sfax',
-  'Sousse',
-  'Nabeul',
-  'Bizerte',
-  'Gabès',
-  'Monastir',
-  'Djerba',
-  'Tozeur',
-  'Kairouan',
+  'Alger',
+  'Oran',
+  'Constantine',
+  'Annaba',
+  'Blida',
+  'Tlemcen',
+  'Sétif',
+  'Batna',
+  'Béjaïa',
+  'Tizi Ouzou',
+  'Biskra',
+  'Ouargla',
+  'Mostaganem',
+  'Médéa',
+  'Chlef',
+  'Skikda',
+  'Djelfa',
+  'Tamanrasset',
+  'Jijel',
+  'Ghardaïa',
 ]
 
 export const CATEGORIES = ['economy', 'compact', 'sedan', 'suv', 'luxury', 'van']
@@ -26,7 +36,7 @@ export const STATUS_COLORS = {
 }
 
 export function formatMoney(n) {
-  return new Intl.NumberFormat('fr-TN').format(Math.round(n || 0))
+  return new Intl.NumberFormat('fr-DZ').format(Math.round(n || 0))
 }
 
 export function daysBetween(start, end) {
