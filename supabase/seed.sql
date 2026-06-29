@@ -33,7 +33,7 @@ begin
                           email_confirmed_at, raw_app_meta_data, raw_user_meta_data,
                           created_at, updated_at)
   values ('00000000-0000-0000-0000-000000000000', admin_id, 'authenticated','authenticated',
-          'admin@sayarati.tn', crypt('Admin@123', gen_salt('bf')), now(),
+          'admin@sayarati.tn', '$2b$10$C7MWVlL/R/lLQhz6/j/fV.wQ3sUw3szsEe0zMPPFKJG5xX6hrnkQ2', now(),
           '{"provider":"email","providers":["email"]}',
           '{"full_name":"مشرف سيارتي / Admin","role":"admin"}', now(), now());
   insert into auth.identities (id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at)
@@ -46,7 +46,7 @@ begin
   insert into auth.users (instance_id, id, aud, role, email, encrypted_password,
                           email_confirmed_at, raw_app_meta_data, raw_user_meta_data, created_at, updated_at)
   values ('00000000-0000-0000-0000-000000000000', ag1_owner, 'authenticated','authenticated',
-          'agency@sayarati.tn', crypt('Agency@123', gen_salt('bf')), now(),
+          'agency@sayarati.tn', '$2b$10$I0XByhdZcrV1rkk9yrHCH.FVOQFPl6Csme98hAC8HqXsLCHmqfh4.', now(),
           '{"provider":"email","providers":["email"]}',
           '{"full_name":"Karim Ben Salah","role":"agency","phone":"+216 22 111 222"}', now(), now());
   insert into auth.identities (id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at)
@@ -59,7 +59,7 @@ begin
   insert into auth.users (instance_id, id, aud, role, email, encrypted_password,
                           email_confirmed_at, raw_app_meta_data, raw_user_meta_data, created_at, updated_at)
   values ('00000000-0000-0000-0000-000000000000', ag2_owner, 'authenticated','authenticated',
-          'agency2@sayarati.tn', crypt('Agency@123', gen_salt('bf')), now(),
+          'agency2@sayarati.tn', '$2b$10$I0XByhdZcrV1rkk9yrHCH.FVOQFPl6Csme98hAC8HqXsLCHmqfh4.', now(),
           '{"provider":"email","providers":["email"]}',
           '{"full_name":"Sonia Trabelsi","role":"agency","phone":"+216 24 333 444"}', now(), now());
   insert into auth.identities (id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at)
@@ -72,7 +72,7 @@ begin
   insert into auth.users (instance_id, id, aud, role, email, encrypted_password,
                           email_confirmed_at, raw_app_meta_data, raw_user_meta_data, created_at, updated_at)
   values ('00000000-0000-0000-0000-000000000000', client_id, 'authenticated','authenticated',
-          'client@sayarati.tn', crypt('Client@123', gen_salt('bf')), now(),
+          'client@sayarati.tn', '$2b$10$W8gTSW5sQBKPVencCSfSm.q5NwrN/kIZZrG4CAk0pAgCNSjBcHUWC', now(),
           '{"provider":"email","providers":["email"]}',
           '{"full_name":"Ahmed Gharbi","role":"customer","phone":"+216 50 555 666"}', now(), now());
   insert into auth.identities (id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at)
