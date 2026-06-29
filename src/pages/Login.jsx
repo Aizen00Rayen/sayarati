@@ -39,13 +39,8 @@ export default function Login() {
     setLoading(true)
     const { error: err } = await signIn(email, password)
     setLoading(false)
-    if (err) {
-      const msg = err.message || err.code || err.status
-        ? `${err.message || '(no message)'} [${err.status || 0}] ${err.code || ''}`
-        : 'Connection failed — check browser console'
-      console.error('Login error:', err)
-      setError(msg)
-    } else await redirectByRole()
+    if (err) setError(err.message)
+    else await redirectByRole()
   }
 
   const fillDemo = (em, pw) => { setEmail(em); setPassword(pw) }
