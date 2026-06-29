@@ -29,9 +29,9 @@ export default function Footer() {
             {t('footer.contact')}
           </h4>
           <ul className="space-y-2 text-sm text-white/75">
-            <li>contact@sayarati.tn</li>
-            <li>+216 70 000 000</li>
-            <li>Tunis, Tunisie</li>
+            <li>contact@sayarati.dz</li>
+            <li>+213 43 000 000</li>
+            <li>Tlemcen, Algérie</li>
           </ul>
         </div>
       </div>
