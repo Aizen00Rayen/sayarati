@@ -12,7 +12,7 @@
   "dependencies": {
     "@heroui/react": "^3.2.1",
     "@heroui/styles": "^3.2.1",
-    "@supabase/supabase-js": "^2.45.0",
+    "@supabase/supabase-js": "^2.108.2",
     "i18next": "^23.12.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

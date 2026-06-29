@@ -39,7 +39,7 @@ export default function Login() {
     setLoading(true)
     const { error: err } = await signIn(email, password)
     setLoading(false)
-    if (err) setError(err.message)
+    if (err) setError(err.message || err.code || JSON.stringify(err))
     else await redirectByRole()
   }
 
